@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.leftside{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+ 
+}
+.rightside{
+  width: 50%;
+  height: 100%;
+  justify-content: left;
+}
+.h1{
+  font-weight: 1000px;
+}
+.formhead{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.form-box{
+  width: 450px;
+  height: 500px;
+  padding: 20px;
+
+}
+.form-box-login{
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+}
+.form-message{
+  color: red;
+  font-size: 15px;
+  font-weight: 800;
+  width: 50%;
+  padding: 5px;
+  background-color: rgb(254, 239, 239);
+  margin-left: 100px;
+}
+.link{
+  text-decoration: none;
+  color: rgb(1, 64, 254);
+}
+.para{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 110px;
+}
+.form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.inputbox{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  
+}
+.btn{
+  font-size: 15px;
+  width: 40%;
+  padding: 8px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 130px;
+  background-color: skyblue;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.btn:hover{
+  background-color: rgb(60, 192, 244);
+  cursor: pointer;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
+  background-color: rgb(251, 251, 226);
+}
