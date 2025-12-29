@@ -27,7 +27,7 @@ function Login(){
        async function handlesubmit(e){
              e.preventDefault();
             
-             const response = await fetch("https://user-authentication-system-production-4fb9.up.railway.app/RegistrationServlet", {
+             const response = await fetch("https://omkar-user-auth.alwaysdata.net/LoginServlet", {
                 method: "POST",
                 headers: {
                     "Content-type":"application/json"
